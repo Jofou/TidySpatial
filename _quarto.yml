@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "TidySpatial"
-  author: "Norah Jones"
+  title: "Tidying Spatial Data for Agriculture Usage Purposes"
+  author: "Johanie Fournier, agr."
   date: "2024-01-05"
   chapters:
     - index.qmd
