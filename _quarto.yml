@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Tidying Spatial Data for Agriculture Usage Purposes"
