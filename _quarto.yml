@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "TidySpatial"
+  author: "Norah Jones"
+  date: "2024-01-05"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
