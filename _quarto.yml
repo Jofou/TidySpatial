@@ -8,8 +8,12 @@ book:
   date: "2024-01-05"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - "01_introduction.qmd"
+    - "02_spatial_data_handling.qmd"
+    - "03_spatial_data_preprocessing.qmd"
+    - "04_spatial_data_visualisation.qmd"
+    - "05_spatial_data_eda.qmd"
+    - "06_spatial_data_modeling.qmd"
     - references.qmd
 
 bibliography: references.bib

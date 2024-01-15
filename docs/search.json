@@ -7,16 +7,44 @@
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "01_introduction.html",
+    "href": "01_introduction.html",
     "title": "1  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "02_spatial_data_handling.html",
+    "href": "02_spatial_data_handling.html",
+    "title": "2  Spatial Data Handling",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "03_spatial_data_preprocessing.html",
+    "href": "03_spatial_data_preprocessing.html",
+    "title": "3  Spatial Data Preprocessing",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "04_spatial_data_visualisation.html",
+    "href": "04_spatial_data_visualisation.html",
+    "title": "4  Spatial Data Visualisation",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "05_spatial_data_eda.html",
+    "href": "05_spatial_data_eda.html",
+    "title": "5  Spatial Data Exploratory Data Analysis",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "06_spatial_data_modeling.html",
+    "href": "06_spatial_data_modeling.html",
+    "title": "6  Spatial Data Modeling",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },

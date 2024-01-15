@@ -1,4 +1,4 @@
-# Summary
+# Spatial Data Exploratory Data Analysis
 
 In summary, this book has no content whatsoever.
 
