@@ -1,0 +1,7 @@
+# Spatial Data Change Detection
+
+#### Outline
+
+* How can geostatistics be applied to detect changes in environmental variables?
+* What are the challenges in change detection using geostatistical methods?
+* Can you provides examples of sucessuful change detection studies?

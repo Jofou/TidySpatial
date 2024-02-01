@@ -1,0 +1,7 @@
+# Spatial Data Risk Assessement
+
+#### Outline
+
+* How does geostatistics contribute to environmental risk assessment?
+* What factors are considered in assessing environmental risks spatially?
+* What is the role of geostatistics in risk management strategies?

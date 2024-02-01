@@ -1,0 +1,8 @@
+# Spatial Data Autocorrelation
+
+#### Outline
+
+* What is spatial autocorrelation?
+* Why is it important?
+* How can you measure spatial autocorrelation in geostatistics?
+* What are the implications of spatial autocorrelation in environmental data?
