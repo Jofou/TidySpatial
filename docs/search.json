@@ -18,7 +18,7 @@
     "href": "02_spatial_data_handling.html",
     "title": "2  Spatial Data Handling",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "2.0.0.1 Outline Data Quality\n\nWhat are common issues related to spatial data quality?\nHow can one address errors and inacurracies in spatial datasets?\nWhat role does data quality play in geostatistical analysis?"
   },
   {
     "objectID": "03_spatial_data_preprocessing.html",
@@ -42,11 +42,60 @@
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "06_spatial_data_modeling.html",
-    "href": "06_spatial_data_modeling.html",
-    "title": "6  Spatial Data Modeling",
+    "objectID": "06_spatial_data_autocorrelation.html",
+    "href": "06_spatial_data_autocorrelation.html",
+    "title": "6  Spatial Data Autocorrelation",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "6.0.0.1 Outline\n\nWhat is spatial autocorrelation?\nWhy is it important?\nHow can you measure spatial autocorrelation in geostatistics?\nWhat are the implications of spatial autocorrelation in environmental data?"
+  },
+  {
+    "objectID": "07_spatial_data_interpolation.html",
+    "href": "07_spatial_data_interpolation.html",
+    "title": "7  Spatial Data Interpolation",
+    "section": "",
+    "text": "7.0.0.1 Outline\n\nHow does spatial interpolation work?\nWhat are common methods for spatoal interpolation?\nCan you explain inverse distance weighting in spatial interpolation?"
+  },
+  {
+    "objectID": "08_spatial_data_modeling.html",
+    "href": "08_spatial_data_modeling.html",
+    "title": "8  Spatial Data Modeling",
+    "section": "",
+    "text": "8.0.0.1 Outline\n\nWhat is the role of geostatistical models in environmental applications?\nHow do you validate geostatistical model?\nCan you provide examples of geostatistical modeling in practice?"
+  },
+  {
+    "objectID": "09_spatial_data_simulation.html",
+    "href": "09_spatial_data_simulation.html",
+    "title": "9  Spatial Data Simulation",
+    "section": "",
+    "text": "9.0.0.1 Outline\n\nWhat are spatial simulation methods and when are they used?\nHow does Monte Carlo simulation apply to geostatistical modeling?\nCan you provide examples of spatial simulations in environmental science?"
+  },
+  {
+    "objectID": "10_spatial_data_uncertainty.html",
+    "href": "10_spatial_data_uncertainty.html",
+    "title": "10  Spatial Data Uncertainty",
+    "section": "",
+    "text": "10.0.0.1 Outline\n\nHow is uncertainty addressed in geostatistical predictions?\nWhat are common methods for quantifying uncertainty in spatial models?\nHow does uncetainty impact decision-making in environmental management?"
+  },
+  {
+    "objectID": "11_spatial_data_change_detection.html",
+    "href": "11_spatial_data_change_detection.html",
+    "title": "11  Spatial Data Change Detection",
+    "section": "",
+    "text": "11.0.0.1 Outline\n\nHow can geostatistics be applied to detect changes in environmental variables?\nWhat are the challenges in change detection using geostatistical methods?\nCan you provides examples of sucessuful change detection studies?"
+  },
+  {
+    "objectID": "12_spatial_data_risk_assessement.html",
+    "href": "12_spatial_data_risk_assessement.html",
+    "title": "12  Spatial Data Risk Assessement",
+    "section": "",
+    "text": "12.0.0.1 Outline\n\nHow does geostatistics contribute to environmental risk assessment?\nWhat factors are considered in assessing environmental risks spatially?\nWhat is the role of geostatistics in risk management strategies?"
+  },
+  {
+    "objectID": "13_spatial_data_simulation_methods.html",
+    "href": "13_spatial_data_simulation_methods.html",
+    "title": "13  Spatial Data Simulation Methods",
+    "section": "",
+    "text": "13.0.0.1 Outline\n\nWhat are spatial simulation methods and when are they used?\nHow does Monte Carlo simulation apply to geostatistics modeling?\nCan you provide examples of spatial simulations in environmental science?"
   },
   {
     "objectID": "references.html",

@@ -13,7 +13,14 @@ book:
     - "03_spatial_data_preprocessing.qmd"
     - "04_spatial_data_visualisation.qmd"
     - "05_spatial_data_eda.qmd"
-    - "06_spatial_data_modeling.qmd"
+    - "06_spatial_data_autocorrelation.qmd"
+    - "07_spatial_data_interpolation.qmd"
+    - "08_spatial_data_modeling.qmd"
+    - "09_spatial_data_simulation.qmd"
+    - "10_spatial_data_uncertainty.qmd"
+    - "11_spatial_data_change_detection.qmd"
+    - "12_spatial_data_risk_assessement.qmd"
+    - "13_spatial_data_simulation_methods.qmd"
     - references.qmd
 
 bibliography: references.bib
