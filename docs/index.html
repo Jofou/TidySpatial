@@ -193,7 +193,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  <li><a href="#intended-audience" id="toc-intended-audience" class="nav-link" data-scroll-target="#intended-audience">Intended Audience</a></li>
+  <li><a href="#how-can-i-ask-questions" id="toc-how-can-i-ask-questions" class="nav-link" data-scroll-target="#how-can-i-ask-questions">How can I ask questions?</a></li>
+  <li><a href="#can-i-contribute" id="toc-can-i-contribute" class="nav-link" data-scroll-target="#can-i-contribute">Can I contribute?</a></li>
+  <li><a href="#chapter-references" id="toc-chapter-references" class="nav-link" data-scroll-target="#chapter-references">Chapter References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -231,15 +238,67 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>Welcome to “Advanced Time-Series and Spatial Analysis in Agriculture with R”, a book designed to deepen your understanding and enhance your capabilities in the sophisticated realms of statistical and machine learning techniques using R for agricultural applications. This book caters to readers who are already familiar with the basics of R programming and time-series analysis and are looking to explore more complex methodologies and their real-world applications in the field of agriculture.</p>
-<p>Agriculture is increasingly data-driven, with advances in technology continuously reshaping how data is collected, analyzed, and used to make informed decisions. The need for more advanced analytical tools and techniques to handle, process, and interpret this data is growing. This book aims to equip you with the advanced skills needed to tackle these challenges, using R—a powerful tool for statistical analysis and graphical representation.</p>
-<p>In this guide, we delve into advanced topics such as multivariate time-series models, machine learning for predictive modeling, integration of spatial and temporal data, and high-performance computing solutions. Each chapter not only introduces complex concepts but also provides practical examples and case studies that apply these methods to real agricultural scenarios.</p>
-<p>Whether you’re a data scientist, an agricultural researcher, or a specialist in agronomic data management, this book will offer you: - An in-depth look at advanced statistical methods and how they can be applied in agriculture to improve yield, predict market trends, and optimize resource management. - Techniques for effectively integrating and analyzing spatial and temporal data, helping you to understand the dynamics of agricultural systems over space and time. - Insights into machine learning and deep learning frameworks that can handle large datasets and perform complex predictions and analyses. - Guidance on using high-performance computing to manage and analyze large-scale agricultural data, ensuring that your findings are both timely and scalable.</p>
-<p>Our hope is that by the end of this book, you will not only have gained a more comprehensive understanding of advanced data analysis techniques but will also be able to implement these techniques to drive innovation and efficiency in agricultural practices.</p>
-<p>Embrace the journey through the advanced landscapes of R programming and agricultural analysis. Let’s explore how deep data insights can transform agriculture into a more productive, sustainable, and data-savvy industry.</p>
-<p>Johanie Fournier, agr., M.Sc.</p>
+<p>Welcome to Advanced Time-Series and Spatial Ainalysis in Agriculture with R! This is a work in progress… I’ll publish materials here as I create them. I warmly welcome community contributions in the form of discussions, suggestions, and edits.</p>
+<p>I also want these materials to be reusable and open. The sources are in the source <a href="https://github.com/Jofou/TidySpatial">GitHub repository</a> with a Creative Commons license attached (see below).</p>
+<p>My intention is to write these materials and, when I feel I’m done, pick a publishing partner to produce a print version.</p>
+<p>Certainly! Here’s a paragraph summary for “Advanced Time-Series and Spatial Analysis in Agriculture with R”:</p>
+<p>“Advanced Time-Series and Spatial Analysis in Agriculture with R” is a comprehensive guide that equips readers with the skills to apply sophisticated data analysis techniques to agricultural datasets. The book delves into advanced topics such as multivariate time-series analysis, non-linear models, machine learning, spatio-temporal data integration, and high-performance computing. It provides practical examples and case studies to demonstrate the application of these methods in real-world agricultural scenarios, such as crop yield prediction, precision farming, and climate impact modeling. Designed for agronomists, data scientists, researchers, and advanced students, this book bridges the gap between traditional agricultural practices and modern data science, fostering innovation and enhancing decision-making in the agricultural sector.</p>
+<p>To cite this website, I suggest:</p>
+<pre class="{bib}"><code>@online{aml4td,
+  author = {Fournier, J},
+  title = {{Advanced Time-Series and Spatial Analysis in Agriculture with R}},
+  year = {2024},
+  url = {https://jofou.github.io/TidySpatial/},
+  urldate = {2024-05-23}
+}</code></pre>
+<section id="license" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="license">License</h2>
+<p xmlns:cc="http://creativecommons.org/ns#">
+This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+</p>
+<p>This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. If others modify or adapt the material, they must license the modified material under identical terms.</p>
+<ul>
+<li>BY: Credit must be given to you, the creator.</li>
+<li>NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.</li>
+<li>SA: Adaptations must be shared under the same terms.</li>
+</ul>
+<p>My goal is to have an open book where people can reuse and reference the materials but can’t just put their names on them and resell them (without my permission).</p>
+</section>
+<section id="intended-audience" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="intended-audience">Intended Audience</h2>
+<p>This book is tailored for a diverse audience of professionals and academics who are engaged in the field of agricultural data analysis. It is ideal for agronomists, data scientists, and researchers looking to deepen their understanding of advanced statistical and machine learning techniques applied to agricultural datasets. Additionally, it serves as a valuable resource for graduate students and educators in agricultural science, environmental science, and data science programs, providing practical insights and hands-on experience with state-of-the-art analytical tools. Agricultural consultants, policymakers, and industry professionals will also find this book useful for making data-driven decisions that enhance productivity, sustainability, and resilience in agricultural practices.</p>
+<p>To fully benefit from this book, readers should have a foundational understanding of both agriculture and data science. A basic proficiency in R programming is essential, as the book builds on this knowledge to introduce more advanced concepts and techniques. Familiarity with statistical methods and concepts such as regression, time-series analysis, and basic spatial analysis will be helpful. Additionally, a general understanding of agricultural practices and the types of data commonly encountered in this field (e.g., crop yields, weather patterns, soil characteristics) will provide context for the practical applications discussed. This book aims to bridge the gap between these disciplines, so a willingness to engage with both technical and agricultural content is key to mastering the material presented.</p>
+<p>Before delving into the advanced techniques covered in this book, readers may benefit from exploring foundational texts that provide a solid grounding in both R programming and basic data analysis concepts. “R for Data Science” by Hadley Wickham and Garrett Grolemund is an excellent starting point, offering comprehensive coverage of data manipulation, visualization, and introductory statistical modeling using R. Additionally, “Applied Spatial Data Analysis with R” by Roger S. Bivand, Edzer Pebesma, and Virgilio Gómez-Rubio provides a strong foundation in spatial data analysis, which is crucial for understanding the spatial components of agricultural data. For a thorough introduction to time-series analysis, “Time Series Analysis and Its Applications: With R Examples” by Robert H. Shumway and David S. Stoffer is highly recommended. These texts will equip readers with the necessary skills and knowledge to fully engage with the advanced topics and practical applications presented in this book.</p>
+</section>
+<section id="how-can-i-ask-questions" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-i-ask-questions">How can I ask questions?</h2>
+<p>If you have questions about the content, it is probably best to ask on a public forum, like <a href="https://stats.stackexchange.com/">cross-validated</a>. You’ll most likely get a faster answer there if you take the time to ask the questions in the best way possible.</p>
+<p>If you want a direct answer from me, you should follow <a href="https://yihui.org/en/2017/08/so-gh-email/"><em>Yihui’s Rule</em></a>: add an issue to GitHub (labeled as “Discussion”) first.</p>
+<p>If you think there is a bug, please <a href="https://github.com/Jofou/TidySpatial/issues">file an issue</a>.</p>
+</section>
+<section id="can-i-contribute" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="can-i-contribute">Can I contribute?</h2>
+<p>Please feel free to improve the quality of this content by submitting <strong>pull requests</strong>. A merged PR will make you appear in the contributor list. It will, however, be considered a donation of your work to this project. You are still bound by the conditions of the license, meaning that you are <strong>not considered an author, copyright holder, or owner</strong> of the content once it has been merged in.</p>
+<p>If you plan to do anything beyond fixing a typo, the best thing you can do is to <a href="https://github.com/Jofou/TidySpatial/issues">open an issue</a> and discuss changes before you spend a lot of time doing them.</p>
+<p>If you don’t have a lot of experience with git or GitHub, take a look at the wonderful <a href="https://happygitwithr.com/"><em>Happy Git and GitHub for the useR</em></a>.</p>
+<p>If you want to contribute, some general advice is:</p>
+<ul>
+<li>Only check in the source files (qmd, yml, bib, pre-made image files, etc). Don’t commit the rendered files.</li>
+<li>Keep the changes small in scope. If the overall change is larger, make a sequence of small pull requests.</li>
+<li>The edits cannot include exact code that is under another license (i.e., don’t just copy/paste from R sources, etc.)</li>
+<li>Respect the existing code formatting/linting (as heterogeneous as it is).</li>
+<li>Stick to using R for computations.<br>
+</li>
+<li>Don’t update software versions unless you have to. If you need to update or add something, use <a href="https://rstudio.github.io/renv/">renv</a> (described below) to codify the software requirements.<br>
+</li>
+<li>The <a href="https://usethis.r-lib.org/">usethis</a> package has excellent tools for creating, updating, and managing pull requests. You should consider utilizing those features.</li>
+</ul>
+</section>
+<section id="chapter-references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="chapter-references">Chapter References</h2>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
