@@ -3,24 +3,23 @@ project:
   output-dir: docs
 
 book:
-  title: "Tidying Spatial Data for Agriculture Usage Purposes"
+  title: "Advanced Time-Series and Spatial Analysis in Agriculture with R"
   author: "Johanie Fournier, agr."
-  date: "2024-01-05"
+  date: "`r format(Sys.time(), '%Y-%m-%d')`"
   chapters:
     - index.qmd
     - "01_introduction.qmd"
-    - "02_spatial_data_handling.qmd"
-    - "03_spatial_data_preprocessing.qmd"
-    - "04_spatial_data_visualisation.qmd"
-    - "05_spatial_data_eda.qmd"
-    - "06_spatial_data_autocorrelation.qmd"
-    - "07_spatial_data_interpolation.qmd"
-    - "08_spatial_data_modeling.qmd"
-    - "09_spatial_data_simulation.qmd"
-    - "10_spatial_data_uncertainty.qmd"
-    - "11_spatial_data_change_detection.qmd"
-    - "12_spatial_data_risk_assessement.qmd"
-    - "13_spatial_data_simulation_methods.qmd"
+    - "02_programming.qmd"
+    - "03_multivariate.qmd"
+    - "04_non_linear.qmd"
+    - "05_ml.qmd"
+    - "06_integrating.qmd"
+    - "07_forecasting.qmd"
+    - "08_computing.qmd"
+    - "09_visualization.qmd"
+    - "10_analytics.qmd"
+    - "11_future.qmd"
+    - "12_conclusion.qmd"   
     - references.qmd
 
 bibliography: references.bib

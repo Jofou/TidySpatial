@@ -1,9 +1,20 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+Welcome to "Advanced Time-Series and Spatial Analysis in Agriculture with R", a book designed to deepen your understanding and enhance your capabilities in the sophisticated realms of statistical and machine learning techniques using R for agricultural applications. This book caters to readers who are already familiar with the basics of R programming and time-series analysis and are looking to explore more complex methodologies and their real-world applications in the field of agriculture.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Agriculture is increasingly data-driven, with advances in technology continuously reshaping how data is collected, analyzed, and used to make informed decisions. The need for more advanced analytical tools and techniques to handle, process, and interpret this data is growing. This book aims to equip you with the advanced skills needed to tackle these challenges, using R—a powerful tool for statistical analysis and graphical representation.
 
-```{r}
-1 + 1
-```
+In this guide, we delve into advanced topics such as multivariate time-series models, machine learning for predictive modeling, integration of spatial and temporal data, and high-performance computing solutions. Each chapter not only introduces complex concepts but also provides practical examples and case studies that apply these methods to real agricultural scenarios.
+
+Whether you're a data scientist, an agricultural researcher, or a specialist in agronomic data management, this book will offer you:
+- An in-depth look at advanced statistical methods and how they can be applied in agriculture to improve yield, predict market trends, and optimize resource management.
+- Techniques for effectively integrating and analyzing spatial and temporal data, helping you to understand the dynamics of agricultural systems over space and time.
+- Insights into machine learning and deep learning frameworks that can handle large datasets and perform complex predictions and analyses.
+- Guidance on using high-performance computing to manage and analyze large-scale agricultural data, ensuring that your findings are both timely and scalable.
+
+Our hope is that by the end of this book, you will not only have gained a more comprehensive understanding of advanced data analysis techniques but will also be able to implement these techniques to drive innovation and efficiency in agricultural practices.
+
+Embrace the journey through the advanced landscapes of R programming and agricultural analysis. Let's explore how deep data insights can transform agriculture into a more productive, sustainable, and data-savvy industry.
+
+Johanie Fournier, agr., M.Sc.
+

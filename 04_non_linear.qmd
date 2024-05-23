@@ -1,0 +1,56 @@
+# Non-linear Time-Series Models
+
+#### Introduction
+
+Agricultural data often exhibit complex, non-linear patterns that cannot be adequately captured by linear models. Factors such as weather conditions, soil characteristics, and crop growth processes interact in intricate ways, leading to non-linear dynamics that influence agricultural outputs. To effectively analyze and predict these phenomena, we must go beyond traditional linear approaches and employ non-linear time-series models.
+
+In this chapter, we will explore the realm of non-linear time-series models, which are essential for capturing the complexity and variability inherent in agricultural data. Non-linear models provide the flexibility to model abrupt changes, thresholds, and interactions that are characteristic of agricultural processes.
+
+We will start by understanding the basics of non-linearity in time-series data and identifying scenarios where non-linear models are particularly useful in agriculture. We will then delve into specific non-linear models, including Non-linear Autoregressive (NAR) models and Non-linear Autoregressive Moving Average (NARMA) models, which extend traditional autoregressive models to capture non-linear relationships.
+
+Threshold Autoregressive (TAR) models will also be introduced, offering a powerful approach to modeling regime shifts and critical thresholds in agricultural data, such as the impact of temperature extremes on crop yields. We will cover the implementation of these models in R, providing step-by-step guidance on fitting and validating them.
+
+Additionally, we will explore advanced techniques like state space models and Kalman filtering, which are useful for real-time monitoring and prediction of agricultural variables. These methods allow us to handle hidden processes and time-varying parameters, making them ideal for adaptive management in precision agriculture.
+
+To illustrate the practical applications of these models, we will present case studies on topics such as modeling crop yield responses to environmental changes and predicting pest outbreaks. By applying these non-linear models to real-world data, we can gain deeper insights into agricultural dynamics and develop more accurate predictive tools.
+
+By the end of this chapter, you will have a comprehensive understanding of non-linear time-series models and their application in agriculture. You will be equipped with the skills to implement these models in R, enabling you to tackle complex agricultural challenges with greater precision and reliability.
+
+
+#### Section 1: Basics of Non-linear Time-Series
+- **Understanding Non-linearity in Time-Series**: Defining non-linear time-series and identifying scenarios in agriculture where non-linearity is prominent.
+- **Key Non-linear Models**: Introduction to popular non-linear time-series models, including threshold models, logistic growth models, and GARCH models.
+
+#### Section 2: Non-linear Autoregressive Models
+- **Theory and Applications**: Deep dive into Non-linear Autoregressive (NAR) and Non-linear Autoregressive Moving Average (NARMA) models.
+- **Implementing NAR in R**: Step-by-step tutorial on how to fit and validate NAR models using agricultural time-series data.
+
+#### Section 3: Threshold Models
+- **Introduction to Threshold Autoregressive (TAR) Models**: Explanation of how TAR models handle regimes or phases in data, which are common in agricultural data due to seasonality or other conditional shifts.
+- **Modeling with TAR**: Practical guide on setting up and estimating TAR models in R.
+- **Case Study: Modeling Crop Yield Responses to Temperature Anomalies**: Applying TAR models to understand and predict changes in crop yields based on critical temperature thresholds.
+
+#### Section 4: State Space Models and Kalman Filtering
+- **State Space Models Explained**: Overview of state space models and their suitability for handling hidden processes and time-varying parameters.
+- **Kalman Filter in Agricultural Applications**: Detailed instructions on implementing the Kalman filter in R to track and predict agricultural variables such as soil moisture levels or nutrient deficiencies.
+- **Advanced Application: Real-Time Monitoring and Prediction**: Example of using Kalman filtering for real-time monitoring and adaptive management in precision agriculture.
+
+#### Section 5: Non-linear Model Diagnostics and Validation
+- **Residual Analysis**: Techniques for checking the adequacy of non-linear models.
+- **Model Comparison and Selection**: Criteria and tools in R for comparing non-linear models to choose the best fit for specific agricultural applications.
+
+#### Section 6: Advanced Non-linear Techniques
+- **Neural Networks for Time-Series Forecasting**: Using neural networks to model complex non-linear relationships in time-series data, with implementation using the `keras` and `tensorflow` packages in R.
+- **Case Study: Predicting Pest Outbreaks**: Employing neural networks to predict pest outbreaks based on environmental and crop condition data.
+
+#### Section 7: Visualization of Non-linear Dynamics
+- **Visualizing Non-linear Relationships**: Techniques and R packages for effective visualization of non-linear dynamics in time-series data.
+- **Interactive Dashboards with Shiny**: Building interactive Shiny applications to dynamically explore the effects of non-linear models and make real-time predictions.
+
+#### Summary
+- Recap of the importance of non-linear models in agricultural time-series analysis.
+- Discussion of the scenarios where these models are particularly effective.
+
+#### Exercises
+- Hands-on exercises to build and validate different types of non-linear models using real agricultural data sets.
+- Challenges that encourage innovative approaches to solving complex agricultural problems with non-linear modeling techniques.

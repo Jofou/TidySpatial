@@ -1,7 +1,0 @@
-# Spatial Data Interpolation
-
-#### Outline
-
-* How does spatial interpolation work?
-* What are common methods for spatoal interpolation?
-* Can you explain inverse distance weighting in spatial interpolation?

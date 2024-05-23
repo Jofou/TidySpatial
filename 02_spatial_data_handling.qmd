@@ -1,7 +1,0 @@
-# Spatial Data Handling
-
-#### Outline Data Quality
-
-* What are common issues related to spatial data quality?
-* How can one address errors and inacurracies in spatial datasets?
-* What role does data quality play in geostatistical analysis?

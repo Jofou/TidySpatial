@@ -1,7 +1,0 @@
-# Spatial Data Uncertainty
-
-#### Outline
-
-* How is uncertainty addressed in geostatistical predictions?
-* What are common methods for quantifying uncertainty in spatial models?
-* How does uncetainty impact decision-making in environmental management?

@@ -1,7 +1,0 @@
-# Spatial Data Modeling
-
-#### Outline
-
-* What is the role of geostatistical models in environmental applications?
-* How do you validate geostatistical model?
-* Can you provide examples of geostatistical modeling in practice?

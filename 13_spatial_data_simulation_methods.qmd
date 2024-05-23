@@ -1,7 +1,0 @@
-# Spatial Data Simulation Methods
-
-#### Outline
-
-* What are spatial simulation methods and when are they used?
-* How does Monte Carlo simulation apply to geostatistics modeling?
-* Can you provide examples of spatial simulations in environmental science?
